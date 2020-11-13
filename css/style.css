@@ -1,0 +1,683 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mogra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Kodchasan', 'Mogra', 'Dancing Script', cursive, Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+body {
+    background: #232729;
+}
+
+.container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #232729;
+    display: flex;
+    flex-direction: column;
+}
+
+/* BANDEAU DENTETE */
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 500px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+header img {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.photoMoiSpawn img {
+    width: 200px;
+    height: 250px;
+    border-radius: 100px;
+    /* background: url(../img/IMG_1585.jpg) center no-repeat; */
+    background-size: 250px;
+}
+
+.crochetTitre {
+    color: #da70d6;
+}
+
+.moustacheTitre {
+    color: #ffff00;
+}
+
+/* INTRODUCTION */
+
+.intro {
+    height: 250px;
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+.linkedinBouton {
+    width: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    margin-top: 10px;
+}
+
+/* COMPETENCES TABLEAUX ET BARRES */
+
+.competences {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(255, 255, 255, 0.904);
+    padding: 20px;
+    border-radius: 10px;
+    -webkit-box-shadow: 10px 0px 60px -11px rgba(227, 227, 227, 1);
+    -moz-box-shadow: 10px 0px 60px -11px rgba(227, 227, 227, 1);
+    box-shadow: 10px 0px 100px -11px rgb(95, 95, 95) inset;
+}
+
+.competences ul li {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* BARRE DE PROGRESSION DESIGN */
+
+.progresBar {
+    width: 150px;
+    height: 25px;
+    background: grey;
+    border: 1px solid rgb(73, 73, 73);
+    border-radius: 15px;
+    margin-left: 10px;
+    box-shadow: -1px 2px 10px 3px rgba(0, 0, 0, 0.3) inset;
+}
+
+.progresBarHover {
+    width: 150px;
+    height: 23px;
+    background: rgb(139, 255, 86);
+    border: 1px solid rgb(73, 73, 73);
+    border-radius: 15px;
+    box-shadow: -1px 2px 10px 3px rgba(0, 0, 0, 0.3) inset;
+}
+
+/* BARRE DE PROGRESSION DESIGN POSITIONNEMENT */
+
+#logoHtml {
+    width: 100px;
+    height: 100px;
+}
+
+.progresBarHtml {
+    margin-top: 45px;
+}
+
+#logoHtmlProgres {
+    width: 80%;
+}
+
+
+#logoCss {
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+}
+
+.progresBarCss {
+    margin-top: 50px;
+}
+
+#logoCssProgres {
+    width: 80%;
+}
+
+
+#logoBootstrap {
+    width: 100px;
+    height: 100px;
+}
+
+.progresBarBootstrap {
+    margin-top: 35px;
+}
+
+#logoBootstrapProgres {
+    width: 70%;
+}
+
+
+#logoJS {
+    width: 100px;
+    height: 100px;
+}
+
+.progresBarJS {
+    margin-top: 35px;
+}
+
+#logoJSProgres {
+    width: 60%;
+}
+
+
+#logoAjax {
+    width: 100px;
+    height: 100px;
+}
+
+.progresBarAjax {
+    margin-top: 35px;
+}
+
+#logoAjaxProgres {
+    width: 80%;
+}
+
+
+#logoJquery {
+    width: 100px;
+    height: 100px;
+}
+
+.progresBarJquery {
+    margin-top: 35px;
+}
+
+#logoJqueryProgres {
+    width: 50%;
+}
+
+
+
+
+#logoAngular {
+    width: 100px;
+    height: 100px;
+}
+
+.progresBarAngular {
+    margin-top: 35px;
+}
+
+#logoAngularProgres {
+    width: 65%;
+}
+
+
+#logoIonic {
+    width: 100px;
+    height: 100px;
+}
+
+.progresBarIonic {
+    margin-top: 40px;
+}
+
+#logoIonicProgres {
+    width: 10%;
+}
+
+
+
+
+#logoReact {
+    width: 100px;
+    height: 100px;
+}
+
+.progresBarReact {
+    margin-top: 35px;
+}
+
+#logoReactProgres {
+    width: 40%;
+}
+
+
+#logoNodeJS {
+    width: 100px;
+    height: 100px;
+}
+
+.progresBarNodeJS {
+    margin-top: 35px;
+}
+
+#logoNodeJSProgres {
+    width: 60%;
+}
+
+
+
+
+#logoPhp {
+    width: 100px;
+    height: 100px;
+}
+
+.progresBarPhp {
+    margin-top: 35px;
+}
+
+#logoPhpProgres {
+    width: 40%;
+}
+
+
+#logoSymfony {
+    width: 100px;
+    height: 100px;
+}
+
+.progresBarSymfony {
+    margin-top: 35px;
+}
+
+#logoSymfonyProgres {
+    width: 30%;
+}
+
+
+#logoGit {
+    width: 100px;
+    height: 100px;
+}
+
+.progresBarGit {
+    margin-top: 35px;
+}
+
+#logoGitProgres {
+    width: 70%;
+}
+
+
+#logoDocker {
+    width: 100px;
+    height: 100px;
+}
+
+.progresBarDocker {
+    margin-top: 35px;
+}
+
+#logoDockerProgres {
+    width: 20%;
+}
+
+
+#logoMongo {
+    width: 100px;
+    height: 100px;
+}
+
+.progresBarMongo {
+    margin-top: 35px;
+}
+
+#logoMongoProgres {
+    width: 40%;
+}
+
+
+/* PARTIE DETAIL */
+
+.blockDetails {
+    display: flex;
+    flex-direction: column;
+}
+
+.blockDetails h3 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blockDetails h4 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blockDetails p {
+    text-align: justify;
+    font-size: 1.2em;
+}
+
+.linkGit {
+    color: #fff;
+    font-weight: bold;
+}
+
+/* SOUS LES COMPETENCES */
+/*  */
+
+.horizontaleBlock {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+#titreInterets {
+    font-size: 1.2em;
+}
+
+.separator {
+    height: 100px;
+    background: #fff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+/* CAROUSEL FORMAT ICONES*/
+.carousel {
+    /* -webkit-box-shadow: 5px 13px 35px 14px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 5px 13px 35px 14px rgba(0, 0, 0, 0.75);
+    box-shadow: 5px 13px 35px 14px rgba(255, 255, 255, 0.75); */
+    margin-top: 50px;
+    margin-bottom: 30px;
+    width: 30%;
+    margin-top: 50px;
+}
+
+#logoCarouselHtml {
+    width: 90px;
+    margin-top: 50px;
+}
+
+#logoCarouselCss {
+    width: 100px;
+    margin-top: 50px;
+}
+
+#logoCarouselJS {
+    width: 90px;
+    margin-top: 50px;
+}
+
+#logoCarouselJquery {
+    width: 90px;
+    margin-top: 50px;
+}
+
+#logoCarouselAngular {
+    width: 90px;
+    margin-top: 50px;
+}
+
+#logoCarouselIonic {
+    width: 90px;
+    margin-top: 50px;
+}
+
+#logoCarouselReact {
+    width: 90px;
+    margin-top: 50px
+}
+
+#logoCarouselPhp {
+    width: 90px;
+    margin-top: 50px;
+}
+
+#logoCarouselSymfony {
+    width: 90px;
+    margin-top: 50px;
+}
+
+#logoCarouselGit {
+    width: 90px;
+    margin-top: 50px;
+}
+
+#logoCarouselDocker {
+    width: 90px;
+    margin-top: 50px;
+}
+
+#logoCarouselMongo {
+    width: 110px;
+    margin-top: 50px;
+}
+
+.boutonn {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+.waves-effect.waves-brown .waves-ripple {
+    background-color: rgba(121, 85, 72, 0.65);
+}
+
+
+
+.xpPro {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blockXp {
+    display: none;
+}
+
+.blockXp ul {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    margin-top: 30px;
+}
+
+footer {
+    height: 100px
+}
+
+
+
+.timeline-container {
+    width: 80%;
+    padding: 50px 0;
+    margin: 50px auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.timeline-container:before {
+    /*This is the line down the middle*/
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -1px;
+    width: 2px;
+    height: 100%;
+    background: #CCD1D9;
+    z-index: 1
+}
+
+.timeline-block {
+    width: -webkit-calc(50% + 8px);
+    width: -moz-calc(50% + 8px);
+    width: calc(50% + 8px);
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -moz-box-pack: justify;
+    justify-content: space-between;
+    clear: both;
+}
+
+.timeline-block-right {
+    float: right;
+}
+
+.timeline-block-left {
+    float: left;
+    direction: rtl
+}
+
+.marker {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 2px solid #F5F7FA;
+    background: #4DD0E1;
+    margin-top: 10px;
+    z-index: 9999
+}
+
+.timeline-content {
+    width: 95%;
+    padding: 0 15px;
+    color: #666
+}
+
+.timeline-content h3 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 25px;
+    font-weight: 500
+}
+
+.timeline-content span {
+    font-size: 15px;
+    color: #a4a4a4;
+}
+
+.timeline-content p {
+    font-size: 14px;
+    line-height: 1.5em;
+    word-spacing: 1px;
+    color: #888;
+}
+
+@media screen and (max-width: 768px) {
+    .timeline-container:before {
+        left: 8px;
+        width: 2px;
+    }
+
+    .timeline-block {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .timeline-block-right {
+        float: none;
+    }
+
+    .timeline-block-left {
+        float: none;
+        direction: ltr;
+    }
+}
+
+
+
+
+
+
+@media all and (max-width: 1293px) {
+    header h1 {
+        font-size: 3em;
+    }
+}
+
+@media all and (max-width: 1200px) {
+    .container {
+        width: 80%;
+    }
+
+    header h1 {
+        font-size: 3em;
+    }
+}
+
+@media all and (max-width: 960px) {
+    header h1 {
+        font-size: 2.5em;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+
+    header h1 {
+        font-size: 1.8em;
+    }
+
+    .linkedinBouton {
+        margin-top: 60px;
+    }
+
+    .competences ul li {
+        justify-content: space-between;
+    }
+}
+
+@media all and (max-width: 640px) {
+    .blockDetails h4 {
+        font-size: 1.6em;
+    }
+
+    header h1 {
+        font-size: 1.6em;
+    }
+
+    .linkedinBouton {
+        margin-top: 80px;
+    }
+
+    .xpPro h4 {
+        font-size: 1.6em;
+    }
+
+    .horizontaleBlock {
+        flex-direction: column;
+    }
+
+    .horizontaleBlock div h4 {
+        font-size: 1.6em;
+    }
+}
+
+@media all and (max-width: 543px) {
+
+    .boutonn {
+        width: 100%;
+        height: 50px;
+    }
+}
+
+@media all and (max-width: 480px) {
+    .linkedinBouton {
+        margin-top: 170px;
+
+    }
+
+    .boutonComp {
+        margin-top: 0;
+    }
+}
